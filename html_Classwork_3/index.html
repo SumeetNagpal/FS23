@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Personal Details</legend>
+        <label for="fname">Firstname</label>
+        <input type="text" name="fname" />
+        <br /><br />
+        <label for="mname">Middlename:</label>
+        <input type="text" name="mname" />
+        <br /><br />
+        <label for="lname">Lastname:</label>
+        <input type="text" name="lname" />
+        <br /><br />
+        <label for="course">Course : </label>
+        <select name="course">
+          <option value="Course">Course</option>
+          <option value="BCA">BCA</option>
+          <option value="BBA">BBA</option>
+          <option value="BTech">B.Tech</option>
+          <option value="MBA">MBA</option>
+          <option value="MCA">MCA</option>
+          <option value="MTech">M.Tech</option>
+        </select>
+        <br /><br />
+        <label for="gender">Gender :</label>
+        <br />
+        <input type="radio" name="gender" value="male" />Male
+        <br />
+        <input type="radio" name="gender" value="female" />Female
+        <br />
+        <input type="radio" name="gender" value="other" />Other <br /><br />
+        <label for="dob">DOB </label>
+        <input type="datetime-local" name="" id="" />
+        <br />
+        <label for="phone">Phone : </label>
+        <input type="text" name="code" value="+91" size="3" disabled />
+        <input type="tel" name="phone" maxlength="10" size="10" />
+        <br /><br />
+        <label for="address">Address</label>
+        <br />
+        <textarea name="address" cols="60" rows="5"></textarea>
+        <br /><br />
+        <label for="email">Email: </label>
+        <input type="email" name="email"  />
+        <br /><br />
+        <label for="password">Password: </label>
+        <input type="password" name="password" />
+        <br /><br />
+        <label for="reTypePassword">Re-type password: </label>
+        <input type="password" name="reTypePassword" />
+        <br /><br />
+        <input type="checkbox" name="terms" />
+        <label for="terms">Agree to terms and conditions</label>
+        <br /><br />
+        <label for="chooseFile">Choose File </label>
+        <input type="file" name="chooseFile" />
+        <br /><br />
+        <label for="chooseColor">Choose Color </label>
+        <input type="color" name="chooseColor" />
+        <br /><br />
+        <input type="reset" />
+        <input type="submit" value="Submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>
