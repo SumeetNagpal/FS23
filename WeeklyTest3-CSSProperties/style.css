@@ -1,0 +1,132 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#free-shipping {
+  color: white;
+  text-align: center;
+  background: linear-gradient(to right, #000000, #e74c3c);
+  height: 40px;
+  padding: 10px;
+}
+
+nav {
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  height: 50px;
+  padding: 0px 15px;
+  position: sticky;
+  top: 0px;
+}
+
+nav > h5 {
+  display: inline-block;
+  padding: 15px;
+}
+
+nav > input {
+  width: 30%;
+  border: none;
+}
+
+nav > span {
+  padding: 2px;
+}
+
+.sale {
+  background-image: url(https://static01.nyt.com/images/2021/03/30/multimedia/28xp-shoes-09/28xp-shoes-09-superJumbo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 6% 10%;
+  border-image-width: 100%;
+  font-size: larger;
+}
+
+.sale > header {
+  color: #fff;
+  width: 71%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2%;
+}
+
+.trending {
+  background-color: #0000001a;
+  padding: 1% 5%;
+}
+
+.trending > .container {
+  background-color: rgba(128, 128, 128, 0.701);
+  margin: 10px 0px;
+  padding: 1%;
+}
+
+.trending .trending-items-container > figure {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  height: 150px;
+  width: 120px;
+  color: white;
+}
+
+.trending-items-container > figure > img {
+  width: 100%;
+  height: 80%;
+}
+
+.about {
+  background: linear-gradient(to left, #000000, #434343);
+}
+
+.about .container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.air-jordan {
+  width: 85%;
+  height: 75%;
+  background: linear-gradient(to right, #000000, #e74c3c);
+  margin: auto;
+  margin-top: 7.5%;
+  padding: 2%;
+  box-shadow: 0px 0px 10px gray;
+}
+
+.air-jordan .content {
+  max-width: 40.5%;
+  color: white;
+}
+
+.air-jordan .content h1 {
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+
+.air-jordan .content p {
+  margin-bottom: 50px;
+  font-size: large;
+}
+
+.air-jordan img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: absolute;
+  right: 10%;
+  top: 20%;
+  box-shadow: 8px 8px 8px white;
+}
+
+.air-jordan img:hover {
+  right: 15%;
+  top: 25%;
+  width: 400px;
+  height: 400px;
+}
